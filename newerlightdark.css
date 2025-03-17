@@ -1,0 +1,307 @@
+  /* Standard (Light Mode) */
+body {
+  background-color: #faf9f9;
+  color: #1c1c1c;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark Mode */
+body.dark-mode {
+  background-color: #1c1c1c;
+  color: #faf9f9;
+}
+
+/* Lottie Animation Anpassung */
+.arrow-animation-left,
+.arrow-animation-right,
+.lottie-animation,
+.faq-header-icon {
+  filter: invert(12%) brightness(100%);
+  transition: filter 0.3s;
+}
+
+body.dark-mode .arrow-animation-left,
+body.dark-mode .arrow-animation-right,
+body.dark-mode .lottie-animation,
+body.dark-mode .faq-header-icon {
+  filter: invert(100%) brightness(100%);
+}
+
+/* Sichtbarkeit von Shader-Elementen */
+.shader-do-not-touch {
+  display: block;
+}
+
+body.dark-mode .shader-do-not-touch {
+  display: none;
+}
+
+.dark-mode-shader {
+  display: none;
+}
+
+body.dark-mode .dark-mode-shader {
+  display: block;
+}
+
+/* Textfarbe global für alle Code-Embed-Klassen */
+[class^="code-embed-"] {
+  color: #1c1c1c;
+  transition: color 0.3s;
+}
+
+body.dark-mode [class^="code-embed-"] {
+  color: #faf9f9;
+}
+
+/* Textfarbe für .embed-logo */
+.embed-logo {
+  color: #1c1c1c;
+  transition: color 0.3s;
+}
+
+body.dark-mode .embed-logo {
+  color: #faf9f9;
+}
+
+/* Filter für .clock-animation-block anpassen */
+.clock-animation-block {
+  filter: invert(100%);
+  transition: filter 0.3s;
+}
+
+body.dark-mode .clock-animation-block {
+  filter: invert(0%);
+}
+
+/* Beibehaltung der Farben für .row */
+.row {
+  color: initial !important;
+}
+
+/* Texte mit Farbwechsel */
+.text-flip-in-special,
+.paragraph-49,
+.skew-up,
+.text-slide-on-hover,
+.text-block-desktop-mobile,
+.text-block-22,
+.text-block-23,
+.text-block-24,
+.text-block-37,
+.text-block-21,
+.heading-98,
+.heading-104,
+.heading-100,
+.heading-105,
+.heading-106,
+.heading-103,
+.heading-65,
+.header-one,
+.heading-footer,
+.heading-footer-adress,
+.subheading-footer-adress,
+.info-basic .enlarge,
+.links,
+.logo-letter,
+.copyright-text-desktop,
+.paragraph-text,
+.datenschutz-paraghraph,
+.nächstes-bild-links,
+.nächstes-bild-rechts,
+.heading-48,
+.heading-49,
+.text-hover-on,
+.heading-107,
+.form-text {
+  color: #1c1c1c;
+  transition: color 0.3s;
+}
+
+body.dark-mode .text-flip-in-special,
+body.dark-mode .text-block-22,
+body.dark-mode .text-block-23,
+body.dark-mode .text-block-24,
+body.dark-mode .text-block-37,
+body.dark-mode .text-block-21,
+body.dark-mode .paragraph-49,
+body.dark-mode .skew-up,
+body.dark-mode .text-hover-on,
+body.dark-mode .text-slide-on-hover,
+body.dark-mode .text-block-desktop-mobile,
+body.dark-mode .heading-98,
+body.dark-mode .heading-104,
+body.dark-mode .heading-100,
+body.dark-mode .heading-105,
+body.dark-mode .heading-106,
+body.dark-mode .heading-103,
+body.dark-mode .heading-65,
+body.dark-mode .header-one,
+body.dark-mode .heading-footer,
+body.dark-mode .heading-footer-adress,
+body.dark-mode .subheading-footer-adress,
+body.dark-mode .info-basic,
+body.dark-mode .links,
+body.dark-mode .logo-letter,
+body.dark-mode .copyright_text_desktop,
+body.dark-mode .paragraph-text,
+body.dark-mode .datenschutz-paraghraph,
+body.dark-mode .naechstes-bild-links,
+body.dark-mode .naechstes-bild-rechts,
+body.dark-mode .heading-48,
+body.dark-mode .heading-49,
+body.dark-mode .heading-107,
+body.dark-mode .form-text {
+  color: #faf9f9;
+}
+
+/* Standard Border nur für .subtext, .text-feld-fix und .submit-button */
+.subtext,
+.text-feld-fix,
+.submit-button {
+  border: 1px solid #1c1c1c;
+  transition: border-color 0.3s;
+}
+
+body.dark-mode .subtext,
+body.dark-mode .text-feld-fix,
+body.dark-mode .submit-button {
+  border-color: #faf9f9;
+}
+
+/* Hintergrund für .section */
+.section {
+  background-color: #faf9f9;
+  transition: background-color 0.3s;
+}
+
+body.dark-mode .section {
+  background-color: #1c1c1c;
+}
+
+/* Light Mode für Kreise & Counter-Fill */
+.circular-thing,
+.next-circular-thing,
+.last-circular-thing,
+.counter-fill-1,
+.counter-fill-2,
+.counter-fill-3,
+.circular-element,
+.line-design,
+.line-design-2,
+.div-block-376,
+.bg-details {
+  background-color: #1c1c1c;
+  transition: background-color 0.3s;
+}
+
+body.dark-mode .circular-thing,
+body.dark-mode .next-circular-thing,
+body.dark-mode .last-circular-thing,
+body.dark-mode .counter-fill-1,
+body.dark-mode .counter-fill-2,
+body.dark-mode .counter-fill-3,
+body.dark-mode .circular-element,
+body.dark-mode .line-design,
+body.dark-mode .line-design-2,
+body.dark-mode .div-block-376,
+body.dark-mode .bg-details {
+  background-color: #faf9f9;
+}
+
+/* Hintergrundfarbe für .bg-details-2 */
+.bg-details-2 {
+  background-color: #faf9f9;
+  transition: background-color 0.3s;
+}
+
+body.dark-mode .bg-details-2 {
+  background-color: #1c1c1c;
+}
+
+/* Standard (Light Mode) */
+.alle-inhalte {
+  background-color: #eff1f8;
+  transition: background-color 0.3s;
+}
+
+body.dark-mode .alle-inhalte {
+  background-color: #acbfff;
+} 
+
+/* Standard (Light Mode) */
+.titles-dot {
+  background-color: #1c1c1c;
+  transition: background-color 0.3s;
+}
+
+/* Dark Mode */
+body.dark-mode .titles-dot {
+  background-color: #ffffff !important;
+}
+  /* Standard (Light Mode) */
+.titles-dot {
+  background-color: #1c1c1c;
+  transition: background-color 0.3s;
+}
+
+/* Dark Mode */
+body.dark-mode .titles-dot {
+  background-color: #ffffff;
+}
+
+/* Beibehaltung der Farbe für .different-heading, .new-text-socials und .new-text */
+.different-heading, .new-text-socials, .new-text {
+  color: #1c1c1c !important;
+}
+  /* Farbwechsel für .display-s und .body-2 */
+.display-s {
+  color: #1c1c1c;
+  transition: color 0.3s;
+}
+
+body.dark-mode .display-s {
+  color: #faf9f9;
+}
+
+/* Border-Farbwechsel nur unten für .faq-header */
+.faq-header {
+  border-bottom: 1px solid #c2c2c2;
+  transition: border-color 0.3s;
+}
+
+body.dark-mode .faq-header {
+  border-bottom-color: #faf9f9;
+}
+  /* Eigener Farbwechsel für .body-2 */
+.body-2 {
+  color: #696969;
+  transition: color 0.3s;
+}
+
+body.dark-mode .body-2 {
+  color: #696969;
+} /* Beispielhafte Farbe, bitte anpassen */
+  
+  /* Light Mode */
+.bg-details {
+  background-color: #ffffff;
+  transition: background-color 0.3s;
+}
+
+body.dark-mode .bg-details {
+  background-color: #1c1c1c;
+}
+
+/* Textfarbe für .details-text-project und .project-header */
+.details-text-project,
+.project-header {
+  color: #1c1c1c;
+  transition: color 0.3s;
+}
+
+body.dark-mode .details-text-project,
+body.dark-mode .project-header {
+  color: #faf9f9;
+}
+  
