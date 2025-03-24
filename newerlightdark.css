@@ -169,13 +169,13 @@ body.dark-mode .submit-button {
   border-color: #faf9f9;
 }
 
-/* Hintergrund für .section */
+/* Hintergrund für .slider-section */
 .section {
   background-color: #faf9f9;
   transition: background-color 0.3s;
 }
 
-body.dark-mode .section {
+body.dark-mode .slider-section {
   background-color: #1c1c1c;
 }
 
